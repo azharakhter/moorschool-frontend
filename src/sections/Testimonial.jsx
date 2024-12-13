@@ -1,7 +1,6 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+
 import carouelImg from "../assets/img/testimonial-1.jpg";
 
 export const Testimonial = () => {
