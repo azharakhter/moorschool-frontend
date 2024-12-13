@@ -1,44 +1,156 @@
-
-import bgImg from "../assets/images/bg_1.jpg"
+import React, { useState } from "react";
+import carouselImg from "../assets/img/carousel-1.jpg";
 
 export const HeroSection = () => {
-  return (
-    <>
-      <div
-        className="hero-wrap ftco-degree-bg"
-        style={{
-          backgroundImage: `url(${bgImg})`,
-          dataStellarBackgroundRatio: "0.5",
-        }}
-      >
-        <div className="overlay"></div>
-        <div className="container">
-          <div className="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
-            <div className="col-lg-8 ftco-animate">
-              <div className="text w-100 text-center mb-md-5 pb-md-5">
-                <h1 className="mb-4">Fast &amp; Easy Way To Rent A Car</h1>
-                <p style={{ fontSize: "18px" }}>
-                  A small river named Duden flows by their place and supplies it with
-                  the necessary regelialia. It is a paradisematic country, in which
-                  roasted parts
-          </p>
-                <a
-                  href="https://vimeo.com/45830194"
-                  className="icon-wrap popup-vimeo d-flex align-items-center mt-4 justify-content-center"
-                >
-                  <div className="icon d-flex align-items-center justify-content-center">
-                    <span className="ion-ios-play"></span>
+  const [activeSlide, setActiveSlide] = useState(0); // Track the active slide
+  const totalSlides = 2; // Total number of slides
+
+  const handleSlideChange = (index) => {
+    setActiveSlide(index);
+  };
+
+  // Reusable Slide Content
+  const SlideContent = ({ title, description }) => (
+    <div className="container py-4">
+      <div className="row g-5">
+        {/* Left Side: Reservation Form */}
+        <div className="col-lg-6 fadeInLeft animated" style={{ animationDelay: "1s" }}>
+          <div className="bg-secondary rounded p-5">
+            <h4 className="text-white mb-4">CONTINUE CAR RESERVATION</h4>
+            <form>
+              <div className="row g-3">
+                <div className="col-12">
+                  <select className="form-select" aria-label="Default select example">
+                    <option defaultValue>Select Your Car type</option>
+                    <option value="1">VW Golf VII</option>
+                    <option value="2">Audi A1 S-Line</option>
+                    <option value="3">Toyota Camry</option>
+                    <option value="4">BMW 320 ModernLine</option>
+                  </select>
+                </div>
+                <div className="col-12">
+                  <div className="input-group">
+                    <div className="d-flex align-items-center bg-light text-body rounded-start p-2">
+                      <span className="fas fa-map-marker-alt"></span>
+                      <span className="ms-1">Pick Up</span>
+                    </div>
+                    <input
+                      className="form-control"
+                      type="text"
+                      placeholder="Enter a City or Airport"
+                      aria-label="Pick Up Location"
+                    />
                   </div>
-                  <div className="heading-title ml-5">
-                    <span>Easy steps for renting a car</span>
+                </div>
+                <div className="col-12">
+                  <a href="#" className="text-start text-white d-block mb-2">
+                    Need a different drop-off location?
+                  </a>
+                  <div className="input-group">
+                    <div className="d-flex align-items-center bg-light text-body rounded-start p-2">
+                      <span className="fas fa-map-marker-alt"></span>
+                      <span className="ms-1">Drop Off</span>
+                    </div>
+                    <input
+                      className="form-control"
+                      type="text"
+                      placeholder="Enter a City or Airport"
+                      aria-label="Drop Off Location"
+                    />
                   </div>
-                </a>
+                </div>
+                <div className="col-12">
+                  <div className="input-group">
+                    <div className="d-flex align-items-center bg-light text-body rounded-start p-2">
+                      <span className="fas fa-calendar-alt"></span>
+                      <span className="ms-1">Pick Up</span>
+                    </div>
+                    <input className="form-control" type="date" />
+                    <select className="form-select ms-3" aria-label="Pick Up Time">
+                      {[...Array(24).keys()].map((hour) => (
+                        <option key={hour} value={hour}>
+                          {hour}:00
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="input-group">
+                    <div className="d-flex align-items-center bg-light text-body rounded-start p-2">
+                      <span className="fas fa-calendar-alt"></span>
+                      <span className="ms-1">Drop Off</span>
+                    </div>
+                    <input className="form-control" type="date" />
+                    <select className="form-select ms-3" aria-label="Drop Off Time">
+                      {[...Array(24).keys()].map((hour) => (
+                        <option key={hour} value={hour}>
+                          {hour}:00
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <button className="btn btn-light w-100 py-2">Book Now</button>
+                </div>
               </div>
+            </form>
+          </div>
+        </div>
+        {/* Right Side: Slide Text */}
+        <div className="col-lg-6 d-none d-lg-flex fadeInRight animated" style={{ animationDelay: "1s" }}>
+          <div className="text-start">
+            <h1 className="display-5 text-white">{title}</h1>
+            <p>{description}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
+    <div className="header-carousel">
+      <div id="carouselId" className="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        {/* Custom Indicators */}
+        <ol className="carousel-indicators">
+          {[...Array(totalSlides)].map((_, index) => (
+            <li
+              key={index}
+              data-bs-target="#carouselId"
+              data-bs-slide-to={index}
+              className={index === activeSlide ? "active" : ""}
+              onClick={() => handleSlideChange(index)}
+              aria-label={`Slide ${index + 1}`}
+            ></li>
+          ))}
+        </ol>
+
+        {/* Carousel Slides */}
+        <div className="carousel-inner" role="listbox">
+          {/* First Slide */}
+          <div className={`carousel-item ${activeSlide === 0 ? "active" : ""}`}>
+            <img src={carouselImg} className="img-fluid w-100" alt="First slide" />
+            <div className="carousel-caption">
+              <SlideContent
+                title="Get 15% off your rental! Plan your trip now"
+                description="Treat yourself in the USA"
+              />
+            </div>
+          </div>
+
+          {/* Second Slide */}
+          <div className={`carousel-item ${activeSlide === 1 ? "active" : ""}`}>
+            <img src={carouselImg} className="img-fluid w-100" alt="Second slide" />
+            <div className="carousel-caption">
+              <SlideContent
+                title="Get 15% off your rental! Choose Your Model"
+                description="Explore premium cars for your journey"
+              />
             </div>
           </div>
         </div>
       </div>
-
-    </>
-  )
-}
+    </div>
+  );
+};

@@ -1,150 +1,139 @@
-import { Link } from "react-router-dom"
+import React from "react";
+
 export const Footer = () => {
-    return (
-        <>
-            <footer className="ftco-footer ftco-bg-dark ftco-section">
-  <div className="container">
-    <div className="row mb-5">
-      <div className="col-md">
-        <div className="ftco-footer-widget mb-4">
-          <h2 className="ftco-heading-2">
-            <a href="#" className="logo">
-              Car<span>book</span>
-            </a>
-          </h2>
-          <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-          <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-            <li className="ftco-animate">
-              <a href="#">
-                <span className="icon-twitter"></span>
-              </a>
-            </li>
-            <li className="ftco-animate">
-              <a href="#">
-                <span className="icon-facebook"></span>
-              </a>
-            </li>
-            <li className="ftco-animate">
-              <a href="#">
-                <span className="icon-instagram"></span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="col-md">
-        <div className="ftco-footer-widget mb-4 ml-md-5">
-          <h2 className="ftco-heading-2">Information</h2>
-          <ul className="list-unstyled">
-            <li>
-              <a href="#" className="py-2 d-block">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="py-2 d-block">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#" className="py-2 d-block">
-                Term and Conditions
-              </a>
-            </li>
-            <li>
-              <a href="#" className="py-2 d-block">
-                Best Price Guarantee
-              </a>
-            </li>
-            <li>
-              <a href="#" className="py-2 d-block">
-                Privacy &amp; Cookies Policy
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="col-md">
-        <div className="ftco-footer-widget mb-4">
-          <h2 className="ftco-heading-2">Customer Support</h2>
-          <ul className="list-unstyled">
-            <li>
-              <a href="#" className="py-2 d-block">
-                FAQ
-              </a>
-            </li>
-            <li>
-              <a href="#" className="py-2 d-block">
-                Payment Option
-              </a>
-            </li>
-            <li>
-              <a href="#" className="py-2 d-block">
-                Booking Tips
-              </a>
-            </li>
-            <li>
-              <a href="#" className="py-2 d-block">
-                How it works
-              </a>
-            </li>
-            <li>
-              <a href="#" className="py-2 d-block">
-                Contact Us
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="col-md">
-        <div className="ftco-footer-widget mb-4">
-          <h2 className="ftco-heading-2">Have a Questions?</h2>
-          <div className="block-23 mb-3">
-            <ul>
-              <li>
-                <span className="icon icon-map-marker"></span>
-                <span className="text">
-                  203 Fake St. Mountain View, San Francisco, California, USA
-                </span>
-              </li>
-              <li>
+  return (
+    <>
+      {/* Footer Start */}
+      <div className="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div className="container py-5">
+          <div className="row g-5">
+            <div className="col-md-6 col-lg-6 col-xl-3">
+              <div className="footer-item d-flex flex-column">
+                <div className="footer-item">
+                  <h4 className="text-white mb-4">About Us</h4>
+                  <p className="mb-3">
+                    Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit consectetur adipiscing elit.
+                  </p>
+                </div>
+                <div className="position-relative">
+                  <input
+                    className="form-control rounded-pill w-100 py-3 ps-4 pe-5"
+                    type="text"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    type="button"
+                    className="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-6 col-xl-3">
+              <div className="footer-item d-flex flex-column">
+                <h4 className="text-white mb-4">Quick Links</h4>
                 <a href="#">
-                  <span className="icon icon-phone"></span>
-                  <span className="text">+2 392 3929 210</span>
+                  <i className="fas fa-angle-right me-2"></i> About
                 </a>
-              </li>
-              <li>
                 <a href="#">
-                  <span className="icon icon-envelope"></span>
-                  <span className="text">info@yourdomain.com</span>
+                  <i className="fas fa-angle-right me-2"></i> Cars
                 </a>
-              </li>
-            </ul>
+                <a href="#">
+                  <i className="fas fa-angle-right me-2"></i> Car Types
+                </a>
+                <a href="#">
+                  <i className="fas fa-angle-right me-2"></i> Team
+                </a>
+                <a href="#">
+                  <i className="fas fa-angle-right me-2"></i> Contact us
+                </a>
+                <a href="#">
+                  <i className="fas fa-angle-right me-2"></i> Terms & Conditions
+                </a>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-6 col-xl-3">
+              <div className="footer-item d-flex flex-column">
+                <h4 className="text-white mb-4">Business Hours</h4>
+                <div className="mb-3">
+                  <h6 className="text-muted mb-0">Mon - Friday:</h6>
+                  <p className="text-white mb-0">09.00 am to 07.00 pm</p>
+                </div>
+                <div className="mb-3">
+                  <h6 className="text-muted mb-0">Saturday:</h6>
+                  <p className="text-white mb-0">10.00 am to 05.00 pm</p>
+                </div>
+                <div className="mb-3">
+                  <h6 className="text-muted mb-0">Vacation:</h6>
+                  <p className="text-white mb-0">All Sunday is our vacation</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-6 col-xl-3">
+              <div className="footer-item d-flex flex-column">
+                <h4 className="text-white mb-4">Contact Info</h4>
+                <a href="#">
+                  <i className="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA
+                </a>
+                <a href="mailto:info@example.com">
+                  <i className="fas fa-envelope me-2"></i> info@example.com
+                </a>
+                <a href="tel:+01234567890">
+                  <i className="fas fa-phone me-2"></i> +012 345 67890
+                </a>
+                <a href="tel:+01234567890" className="mb-3">
+                  <i className="fas fa-print me-2"></i> +012 345 67890
+                </a>
+                <div className="d-flex">
+                  <a className="btn btn-secondary btn-md-square rounded-circle me-3" href="#">
+                    <i className="fab fa-facebook-f text-white"></i>
+                  </a>
+                  <a className="btn btn-secondary btn-md-square rounded-circle me-3" href="#">
+                    <i className="fab fa-twitter text-white"></i>
+                  </a>
+                  <a className="btn btn-secondary btn-md-square rounded-circle me-3" href="#">
+                    <i className="fab fa-instagram text-white"></i>
+                  </a>
+                  <a className="btn btn-secondary btn-md-square rounded-circle me-0" href="#">
+                    <i className="fab fa-linkedin-in text-white"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div className="row">
-      <div className="col-md-12 text-center">
-        <p>
-          {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-          Copyright &copy;
-          {new Date().getFullYear()} All rights reserved | This template is
-          made with <i className="icon-heart color-danger" aria-hidden="true"></i> by{" "}
-          <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">
-            Colorlib
-          </a>
-          {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-        </p>
+      {/* Footer End */}
+
+      {/* Copyright Start */}
+      <div className="container-fluid copyright py-4">
+        <div className="container">
+          <div className="row g-4 align-items-center">
+            <div className="col-md-6 text-center text-md-start mb-md-0">
+              <span className="text-body">
+                <a href="#" className="border-bottom text-white">
+                  <i className="fas fa-copyright text-light me-2"></i>Your Site Name
+                </a>
+                , All right reserved.
+              </span>
+            </div>
+            <div className="col-md-6 text-center text-md-end text-body">
+              Designed By{" "}
+              <a className="border-bottom text-white" href="https://htmlcodex.com">
+                HTML Codex
+              </a>{" "}
+              Distributed By{" "}
+              <a className="border-bottom text-white" href="https://themewagon.com">
+                ThemeWagon
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</footer>
+      {/* Copyright End */}
+    </>
+  );
+};
 
-        </>
-
-    )
-}

@@ -16,63 +16,102 @@ export const Header = () => {
     // }, []);
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-          <div className="container">
-            <Link className="navbar-brand" href="index.html">
-              Car<span>Book</span>
-           </Link>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#ftco-nav"
-              aria-controls="ftco-nav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="oi oi-menu"></span> Menu
-            </button>
-    
-            <div className="collapse navbar-collapse" id="ftco-nav">
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                  <Link href="index.html" className="nav-link">
-                    Home
-                 </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="about.html" className="nav-link">
-                    About
-                 </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="services.html" className="nav-link">
-                    Services
-                 </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="pricing.html" className="nav-link">
-                    Pricing
-                 </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="car.html" className="nav-link">
-                    Cars
-                 </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="blog.html" className="nav-link">
-                    Blog
-                 </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="contact.html" className="nav-link">
-                    Contact
-                 </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+      <>
+     <div className="container-fluid topbar bg-secondary d-none d-xl-block w-100">
+     <div className="container">
+       <div className="row gx-0 align-items-center" style={{ height: "45px" }}>
+         <div className="col-lg-6 text-center text-lg-start mb-lg-0">
+           <div className="d-flex flex-wrap">
+             <a href="#" className="text-muted me-4">
+               <i className="fas fa-map-marker-alt text-primary me-2"></i>Find A Location
+             </a>
+             <a href="tel:+01234567890" className="text-muted me-4">
+               <i className="fas fa-phone-alt text-primary me-2"></i>+01234567890
+             </a>
+             <a href="mailto:example@gmail.com" className="text-muted me-0">
+               <i className="fas fa-envelope text-primary me-2"></i>Example@gmail.com
+             </a>
+           </div>
+         </div>
+         <div className="col-lg-6 text-center text-lg-end">
+           <div className="d-flex align-items-center justify-content-end">
+             <a href="#" className="btn btn-light btn-sm-square rounded-circle me-3">
+               <i className="fab fa-facebook-f"></i>
+             </a>
+             <a href="#" className="btn btn-light btn-sm-square rounded-circle me-3">
+               <i className="fab fa-twitter"></i>
+             </a>
+             <a href="#" className="btn btn-light btn-sm-square rounded-circle me-3">
+               <i className="fab fa-instagram"></i>
+             </a>
+             <a href="#" className="btn btn-light btn-sm-square rounded-circle me-0">
+               <i className="fab fa-linkedin-in"></i>
+             </a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div className="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
+     <div className="container">
+       <nav className="navbar navbar-expand-lg navbar-light">
+         <a href="#" className="navbar-brand p-0">
+           <h1 className="display-6 text-primary">
+             <i className="fas fa-car-alt me-3"></i>Cental
+           </h1>
+         </a>
+         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+           <span className="fa fa-bars"></span>
+         </button>
+         <div className="collapse navbar-collapse" id="navbarCollapse">
+           <div className="navbar-nav mx-auto py-0">
+             <a href="#" className="nav-item nav-link active">
+               Home
+             </a>
+             <a href="#" className="nav-item nav-link">
+               About
+             </a>
+             <a href="#" className="nav-item nav-link">
+               Service
+             </a>
+             <a href="#" className="nav-item nav-link">
+               Blog
+             </a>
+             <div className="nav-item dropdown">
+               <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                 Pages
+               </a>
+               <div className="dropdown-menu m-0">
+                 <a href="#" className="dropdown-item">
+                   Our Feature
+                 </a>
+                 <a href="#" className="dropdown-item">
+                   Our Cars
+                 </a>
+                 <a href="#" className="dropdown-item">
+                   Our Team
+                 </a>
+                 <a href="#" className="dropdown-item">
+                   Testimonial
+                 </a>
+                 <a href="#" className="dropdown-item">
+                   404 Page
+                 </a>
+               </div>
+             </div>
+             <a href="#" className="nav-item nav-link">
+               Contact
+             </a>
+           </div>
+           <a href="#" className="btn btn-primary rounded-pill py-2 px-4">
+             Get Started
+           </a>
+         </div>
+       </nav>
+     </div>
+   </div>
+     </>
+
       );
 }
