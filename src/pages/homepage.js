@@ -26,12 +26,14 @@ export const HomePage = () => {
           <AboutSection />
           <CounterSection />
           <ServicesSection />
-          <TestCategoires />
-          <StepSection />
-          <BlogSection />
-          <BannerSection />
-          <TeamSection />
-          <Testimonial/>
+      {/* <TestCategoires /> */}
+  
+      <StepSection />
+      <Testimonial/>
+          {/* <BlogSection /> */}
+          {/* <BannerSection /> */}
+          {/* <TeamSection /> */}
+     
 
           <Footer/>
     </div>

@@ -17,13 +17,13 @@ export const Header = () => {
 
     return (
       <>
-     <div className="container-fluid topbar bg-secondary d-none d-xl-block w-100">
+     {/* <div className="container-fluid topbar bg-secondary d-none d-xl-block w-100">
      <div className="container">
        <div className="row gx-0 align-items-center" style={{ height: "45px" }}>
          <div className="col-lg-6 text-center text-lg-start mb-lg-0">
            <div className="d-flex flex-wrap">
              <a href="#" className="text-muted me-4">
-               <i className="fas fa-map-marker-alt text-primary me-2"></i>Find A Location
+               <i className="fas fa-map-marker-alt text-primary me-2"></i>WaterFold
              </a>
              <a href="tel:+01234567890" className="text-muted me-4">
                <i className="fas fa-phone-alt text-primary me-2"></i>+01234567890
@@ -51,14 +51,14 @@ export const Header = () => {
          </div>
        </div>
      </div>
-   </div>
+   </div> */}
 
    <div className="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
      <div className="container">
        <nav className="navbar navbar-expand-lg navbar-light">
          <a href="#" className="navbar-brand p-0">
            <h1 className="display-6 text-primary">
-             <i className="fas fa-car-alt me-3"></i>Cental
+             <i className="fas fa-car-alt me-3"></i>Moors Driving School
            </h1>
          </a>
          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -75,10 +75,10 @@ export const Header = () => {
              <a href="#" className="nav-item nav-link">
                Service
              </a>
-             <a href="#" className="nav-item nav-link">
+             {/* <a href="#" className="nav-item nav-link">
                Blog
-             </a>
-             <div className="nav-item dropdown">
+             </a> */}
+             {/* <div className="nav-item dropdown">
                <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                  Pages
                </a>
@@ -99,13 +99,13 @@ export const Header = () => {
                    404 Page
                  </a>
                </div>
-             </div>
-             <a href="#" className="nav-item nav-link">
+             </div> */}
+             {/* <a href="#" className="nav-item nav-link">
                Contact
-             </a>
+             </a> */}
            </div>
            <a href="#" className="btn btn-primary rounded-pill py-2 px-4">
-             Get Started
+             WhatsApp Call
            </a>
          </div>
        </nav>

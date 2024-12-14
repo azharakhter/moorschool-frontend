@@ -1,5 +1,5 @@
 import React from "react";
-import featureImg from "../assets/img/features-img.png"
+import featureImg from "../assets/img/pic.webp"
 
 export const FeatureSection = () => {
   return (
@@ -11,12 +11,10 @@ export const FeatureSection = () => {
           style={{ maxWidth: "800px" }}
         >
           <h1 className="display-5 text-capitalize mb-3">
-            Cental <span className="text-primary">Features</span>
+            Moors Driving <span className="text-primary">School</span>
           </h1>
           <p className="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi
-            accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia
-            distinctio,
+          Our expert driving instructors provide tailored lessons designed to build your confidence and ensure a lifetime of safe driving. With a proven success rate of over 500 driving test passes, we prepare you thoroughly to succeed on your first attempt.
           </p>
         </div>
         <div className="row g-4 align-items-center">
@@ -28,10 +26,9 @@ export const FeatureSection = () => {
                     <span className="fa fa-trophy fa-2x"></span>
                   </div>
                   <div className="ms-4">
-                    <h5 className="mb-3">First Class services</h5>
+                    <h5 className="mb-3">Premium Driving Lessons Tailored to You</h5>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, in illum aperiam ullam
-                      magni eligendi?
+                    Learn from the best with personalized instruction that prepares you for a lifetime of safe driving.
                     </p>
                   </div>
                 </div>
@@ -42,11 +39,9 @@ export const FeatureSection = () => {
                     <span className="fa fa-road fa-2x"></span>
                   </div>
                   <div className="ms-4">
-                    <h5 className="mb-3">24/7 road assistance</h5>
+                    <h5 className="mb-3">Learn Manual Driving with Confidence</h5>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, in illum aperiam ullam
-                      magni eligendi?
-                    </p>
+                    Master the art of manual car driving with expert guidance, ensuring you gain complete control and confidence behind the wheel—all at an affordable price                    </p>
                   </div>
                 </div>
               </div>
@@ -65,10 +60,9 @@ export const FeatureSection = () => {
               <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="feature-item justify-content-end">
                   <div className="text-end me-4">
-                    <h5 className="mb-3">Quality at Minimum</h5>
+                    <h5 className="mb-3">Automatic Driving Made Easy</h5>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, in illum aperiam ullam
-                      magni eligendi?
+                    Enjoy a stress-free learning experience with automatic cars, tailored for convenience and comfort, available with 24/7 support to help you succeed.
                     </p>
                   </div>
                   <div className="feature-icon">
@@ -79,10 +73,9 @@ export const FeatureSection = () => {
               <div className="col-12 wow fadeInUp" data-wow-delay="0.3s">
                 <div className="feature-item justify-content-end">
                   <div className="text-end me-4">
-                    <h5 className="mb-3">Free Pick-Up & Drop-Off</h5>
+                    <h5 className="mb-3">Hassle-Free Pick-Up & Drop-Off</h5>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, in illum aperiam ullam
-                      magni eligendi?
+                    Save time with our free pick-up and drop-off service, bringing the driving school to your doorstep.
                     </p>
                   </div>
                   <div className="feature-icon">

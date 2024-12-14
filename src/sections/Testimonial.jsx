@@ -57,7 +57,7 @@ export const Testimonial = () => {
   };
 
   return (
-    <div className="container-fluid testimonial pb-5">
+    <div className="container-fluid testimonial pb-5 mt-5">
       <div className="container pb-5">
         <div
           className="text-center mx-auto pb-5 wow fadeInUp"
@@ -65,13 +65,10 @@ export const Testimonial = () => {
           style={{ maxWidth: "800px" }}
         >
           <h1 className="display-5 text-capitalize mb-3">
-            Our Clients<span className="text-primary"> Reviews</span>
+          What Our<span className="text-primary">Clients Say</span>
           </h1>
           <p className="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet
-            nemo expedita asperiores commodi accusantium at cum harum,
-            excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam
-            quia distinctio,
+          Our clients love the personalized approach, professional guidance, and supportive learning environment we provide. With expert instructors and tailored lessons, we’ve helped countless learners feel confident and safe on the road. Don’t just take our word for it—hear what our happy clients have to say!
           </p>
         </div>
         <OwlCarousel

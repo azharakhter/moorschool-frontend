@@ -10,59 +10,57 @@ export const ServicesSection = () => {
           style={{ maxWidth: "800px" }}
         >
           <h1 className="display-5 text-capitalize mb-3">
-            Cental <span className="text-primary">Services</span>
+          Central Services by <span className="text-primary">Moors Driving School</span>
           </h1>
           <p className="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet
-            nemo expedita asperiores commodi accusantium at cum harum,
-            excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam
-            quia distinctio,
+          At Moors Driving School, we provide a complete range of driving services, from beginner lessons to advanced test preparation. With expert instructors and tailored training, we ensure you're fully prepared for safe and confident driving
           </p>
         </div>
         <div className="row g-4">
           {[
             {
-              icon: "fa-phone-alt",
-              title: "Phone Reservation",
-              description:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?",
-              delay: "0.1s",
-            },
-            {
-              icon: "fa-money-bill-alt",
-              title: "Special Rates",
-              description:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?",
-              delay: "0.3s",
-            },
-            {
-              icon: "fa-road",
-              title: "One Way Rental",
-              description:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?",
-              delay: "0.5s",
-            },
-            {
-              icon: "fa-umbrella",
-              title: "Life Insurance",
-              description:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?",
-              delay: "0.1s",
-            },
-            {
-              icon: "fa-building",
-              title: "City to City",
-              description:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?",
-              delay: "0.3s",
-            },
-            {
-              icon: "fa-car-alt",
-              title: "Free Rides",
-              description:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?",
-              delay: "0.5s",
-            },
+  icon: "fa-phone-alt",
+  title: "Phone Reservations",
+  description:
+    "Easily book your driving lessons with a quick call. Our team is here to help you schedule at your convenience.",
+  delay: "0.1s",
+},
+{
+  icon: "fa-money-bill-alt",
+  title: "Affordable Rates",
+  description:
+    "Enjoy top-quality driving lessons at competitive prices. Special packages are available to suit your budget.",
+  delay: "0.3s",
+},
+{
+  icon: "fa-road",
+  title: "Flexible Lessons",
+  description:
+    "Choose starting and ending locations that work best for you. Our lessons are designed for your convenience.",
+  delay: "0.5s",
+},
+{
+  icon: "fa-shield-alt",
+  title: "Comprehensive Insurance",
+  description:
+    "Learn worry-free with full insurance coverage during all lessons, prioritizing your safety and peace of mind.",
+  delay: "0.1s",
+},
+{
+  icon: "fa-building",
+  title: "City-to-City Training",
+  description:
+    "Master driving on both urban and intercity roads with lessons covering a variety of real-world scenarios.",
+  delay: "0.3s",
+},
+{
+  icon: "fa-car-alt",
+  title: "Free Pick-Up & Drop-Off",
+  description:
+    "Save time with complimentary pick-up and drop-off services, making your driving journey hassle-free.",
+  delay: "0.5s",
+},
+
           ].map((service, index) => (
             <div
               className="col-md-6 col-lg-4 wow fadeInUp"

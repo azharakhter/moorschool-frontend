@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import carouselImg from "../assets/img/carousel-1.jpg";
+import carouselImg from "../assets/img/hero-1.webp";
 
 export const HeroSection = () => {
   const [activeSlide, setActiveSlide] = useState(0); // Track the active slide
@@ -14,7 +14,7 @@ export const HeroSection = () => {
     <div className="container py-4">
       <div className="row g-5">
         {/* Left Side: Reservation Form */}
-        <div className="col-lg-6 fadeInLeft animated" style={{ animationDelay: "1s" }}>
+        {/* <div className="col-lg-6 fadeInLeft animated" style={{ animationDelay: "1s" }}>
           <div className="bg-secondary rounded p-5">
             <h4 className="text-white mb-4">CONTINUE CAR RESERVATION</h4>
             <form>
@@ -97,13 +97,25 @@ export const HeroSection = () => {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
         {/* Right Side: Slide Text */}
-        <div className="col-lg-6 d-none d-lg-flex fadeInRight animated" style={{ animationDelay: "1s" }}>
-          <div className="text-start">
-            <h1 className="display-5 text-white">{title}</h1>
-            <p>{description}</p>
-          </div>
+        <div className="col-lg-12 d-none d-lg-flex fadeInRight animated" style={{ animationDelay: "1s" }}>
+        <div className="banner-content">
+            <h2 className="text-white">Ready to Hit the Road</h2>
+            <h1 className="text-white">Learn to Drive with MoorDriving</h1>
+            <p className="text-white">Experience expert driving lessons tailored to your needs. Your journey to confident driving starts here!</p>
+            <p className="text-white"> Email Us: contact@moordriving.com</p>
+            
+            <div className="banner-btn">
+              <a href="#" className="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">
+                WhatsApp
+              </a>
+              <a href="mailto:Moordrivingschoolwaterford@gmail.com" className="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">
+  Moordrivingschoolwaterford@gmail.com
+</a>
+
+            </div>
+          </div> 
         </div>
       </div>
     </div>

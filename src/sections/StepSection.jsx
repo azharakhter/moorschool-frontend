@@ -6,17 +6,17 @@ export const StepSection = () => {
       <div className="container py-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "800px" }}>
           <h1 className="display-5 text-capitalize text-white mb-3">
-            Cental<span className="text-primary"> Process</span>
+          Get Started <span className="text-primary"> With Ease</span>
           </h1>
-          <p className="mb-0 text-white">
+          {/* <p className="mb-0 text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
-          </p>
+          </p> */}
         </div>
         <div className="row g-4">
           {[
-            { title: "Come In Contact", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolorem!", number: "01." },
-            { title: "Choose A Car", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolorem!", number: "02." },
-            { title: "Enjoy Driving", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolorem!", number: "03." },
+            { title: "Call or Email Us", description: "Reach out to us via phone or email. Our friendly representative will connect with you promptly to answer your questions and guide you further.", number: "01." },
+            { title: "Get Connected", description: "After contacting us, we will work closely with you to help select the right car and driving plan tailored to your needs.", number: "02." },
+            { title: "Start Your Journey", description: "Once everything is set, you’re ready to start learning. Enjoy a safe and professional driving experience with our expert instructors!", number: "03." },
           ].map((step, index) => (
             <div className="col-lg-4 wow fadeInUp" data-wow-delay={`${0.1 + index * 0.2}s`} key={index}>
               <div className="steps-item p-4 mb-4">
