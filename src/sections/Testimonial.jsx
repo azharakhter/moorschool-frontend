@@ -6,28 +6,28 @@ import carouelImg from "../assets/img/testimonial-1.jpg";
 export const Testimonial = () => {
   const testimonials = [
     {
-      img: `${carouelImg}`,
-      name: "Person Name",
-      profession: "Profession",
+      img: `${carouelImg}`, // Replace with actual image URL or import
+      name: "John Murphy",
+      profession: "Student",
+      stars: 5,
+      review:
+        "Moor Driving School made learning to drive an absolute breeze! The instructors are so patient and professional. I passed my driving test on the first try thanks to their guidance. Highly recommend!",
+    },
+    {
+      img: `${carouelImg}`, // Replace with actual image URL or import
+      name: "Emily O'Connor",
+      profession: "Teacher",
       stars: 4,
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.",
+        "Great experience learning to drive! The lessons were well-structured, and my instructor made sure I was confident on the road. I feel much more prepared now. Thank you!",
     },
     {
-      img: `${carouelImg}`,
-      name: "Person Name",
-      profession: "Profession",
+      img: `${carouelImg}`, // Replace with actual image URL or import
+      name: "David Byrne",
+      profession: "Engineer",
       stars: 3,
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.",
-    },
-    {
-      img: `${carouelImg}`,
-      name: "Person Name",
-      profession: "Profession",
-      stars: 2,
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.",
+        "Good driving school with knowledgeable instructors. I had to reschedule a couple of lessons, which was slightly inconvenient, but overall, the teaching quality was great.",
     },
   ];
 

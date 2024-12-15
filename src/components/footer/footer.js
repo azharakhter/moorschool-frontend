@@ -27,9 +27,16 @@ export const Footer = () => {
                   >
                     Subscribe
                   </button> */}
-                  <a href="#" className="btn btn-primary rounded-pill py-2 px-4 text-white">
-             WhatsApp Call
-           </a>
+                 
+                  
+                  <a
+      href="https://wa.me/353857563001"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-primary rounded-pill py-2 px-4 text-white"
+    >
+      WhatsApp Call
+    </a>
                 </div>
               </div>
             </div>
@@ -57,9 +64,15 @@ export const Footer = () => {
                 <a href="mailto:Moordrivingschoolwaterford@gamil.com">
                   <i className="fas fa-envelope me-2"></i>Moordrivingschoolwaterford
                 </a>
-                <a href="tel:+3530857563001">
-                  <i className="fas fa-phone me-2"></i> +353 085 7563 001
-                </a>
+                     
+                <a
+      href="https://wa.me/353857563001"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-primary rounded-pill py-2 px-4 text-white"
+    >
+      WhatsApp Call
+    </a>
 {/*                
                 <div className="d-flex">
                   <a className="btn btn-secondary btn-md-square rounded-circle me-3" href="#">

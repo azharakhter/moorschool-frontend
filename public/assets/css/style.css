@@ -260,7 +260,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(31, 46, 78, 1), rgba(0, 12, 33, 0.8)), url(../img/fact-bg.jpg);
+    background: linear-gradient(rgba(31, 46, 78, 1), rgba(0, 12, 33, 0.8)), url("../../../src/assets/img/fact-bg.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

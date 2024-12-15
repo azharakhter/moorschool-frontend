@@ -1,5 +1,5 @@
 import React from "react";
-import featureImg from "../assets/img/pic.webp"
+import featureImg from "../assets/img/pic-2.webp"
 
 export const FeatureSection = () => {
   return (
