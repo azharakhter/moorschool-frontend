@@ -100,33 +100,33 @@ export const HeroSection = () => {
         </div> */}
         {/* Right Side: Slide Text */}
         <div className="col-lg-12 d-none d-lg-flex text-center fadeInRight animated" style={{ animationDelay: "1s" }}>
-        <div className="banner-content">
-        <h5 className="display-5 text-capitalize">
-           <span className="text-white"> Ready to Hit the Road</span>
+          <div className="banner-content">
+            <h5 className="display-5 text-capitalize">
+              <span className="text-white"> Ready to Hit the Road</span>
             </h5>
-            
+
             <h1 className="display-2 text-capitalize">
-           <span className="text-white"> Learn to Drive with Moor Driving School</span>
+              <span className="text-white"> Learn to Drive with Moor Driving School</span>
             </h1>
-            
-            <p className="text-white">Experience expert driving lessons tailored to your needs. Your journey to confident driving starts here!</p>
-            
+
+            <p className="text-white">Experience expert driving lessons with an ADI-approved instructor, tailored to your needs. Begin your journey to confident and safe driving today!</p>
+
             <div className="banner-btn">
               <a
-      href="https://wa.me/353857563001"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2"
-    >
-      WhatsApp Call
-    </a>
+                href="https://wa.me/353857563001"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2"
+              >
+                WhatsApp(+353857563001)
+              </a>
 
               <a href="mailto:Moordrivingschoolwaterford@gmail.com" className="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">
-  Moordrivingschoolwaterford@gmail.com
-</a>
+                Moordrivingschoolwaterford@gmail.com
+              </a>
 
             </div>
-          </div> 
+          </div>
         </div>
       </div>
     </div>

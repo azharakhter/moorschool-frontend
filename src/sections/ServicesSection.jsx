@@ -10,10 +10,10 @@ export const ServicesSection = () => {
           style={{ maxWidth: "800px" }}
         >
           <h1 className="display-5 text-capitalize mb-3">
-          Central Services by <span className="text-primary">Moors Driving School</span>
+          Central Services by <span className="text-primary">Moor Driving School</span>
           </h1>
           <p className="mb-0">
-          At Moors Driving School, we provide a complete range of driving services, from beginner lessons to advanced test preparation. With expert instructors and tailored training, we ensure you're fully prepared for safe and confident driving
+          At Moor Driving School, we provide a complete range of driving services, from beginner lessons to advanced test preparation. With expert instructors and tailored training, we ensure you're fully prepared for safe and confident driving
           </p>
         </div>
         <div className="row g-4">
@@ -41,9 +41,9 @@ export const ServicesSection = () => {
 },
 {
   icon: "fa-shield-alt",
-  title: "Comprehensive Insurance",
+  title: "Improving Your Existing Driving Skills",
   description:
-    "Learn worry-free with full insurance coverage during all lessons, prioritizing your safety and peace of mind.",
+    "Enhance your current driving skills with advanced lessons. Perfect for refreshing techniques or learning new road strategies",
   delay: "0.1s",
 },
 {
@@ -55,9 +55,9 @@ export const ServicesSection = () => {
 },
 {
   icon: "fa-car-alt",
-  title: "Free Pick-Up & Drop-Off",
+  title: "Mock Test",
   description:
-    "Save time with complimentary pick-up and drop-off services, making your driving journey hassle-free.",
+    "Simulate the real driving test with our mock test sessions. Gain confidence and identify areas for improvement in a stress-free environment",
   delay: "0.5s",
 },
 

@@ -1,5 +1,5 @@
 import React from "react";
-import featureImg from "../assets/img/pic-2.webp"
+import featureImg from "../assets/img/pic56.webp"
 
 export const FeatureSection = () => {
   return (
@@ -11,7 +11,7 @@ export const FeatureSection = () => {
           style={{ maxWidth: "800px" }}
         >
           <h1 className="display-5 text-capitalize mb-3">
-            Moors Driving <span className="text-primary">School</span>
+            Moor Driving <span className="text-primary">School</span>
           </h1>
           <p className="mb-0">
           Our expert driving instructors provide tailored lessons designed to build your confidence and ensure a lifetime of safe driving. With a proven success rate of over 500 driving test passes, we prepare you thoroughly to succeed on your first attempt.
@@ -26,9 +26,9 @@ export const FeatureSection = () => {
                     <span className="fa fa-trophy fa-2x"></span>
                   </div>
                   <div className="ms-4">
-                    <h5 className="mb-3">Premium Driving Lessons Tailored to You</h5>
+                    <h5 className="mb-3">Automatic & Manual Car Lessons</h5>
                     <p className="mb-0">
-                    Learn from the best with personalized instruction that prepares you for a lifetime of safe driving.
+                    Learn to drive confidently with options for both automatic and manual cars. Our lessons are tailored to match your driving preferences and goals.
                     </p>
                   </div>
                 </div>
@@ -39,9 +39,10 @@ export const FeatureSection = () => {
                     <span className="fa fa-road fa-2x"></span>
                   </div>
                   <div className="ms-4">
-                    <h5 className="mb-3">Learn Manual Driving with Confidence</h5>
+                    <h5 className="mb-3">12 EDT and 6 Reduced Lessons</h5>
                     <p className="mb-0">
-                    Master the art of manual car driving with expert guidance, ensuring you gain complete control and confidence behind the wheel—all at an affordable price                    </p>
+                    Complete your mandatory 12 EDT or benefit from reduced lessons with expert guidance. Our structured approach ensures you meet all requirements effectively
+                    </p>
                   </div>
                 </div>
               </div>
@@ -60,9 +61,9 @@ export const FeatureSection = () => {
               <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="feature-item justify-content-end">
                   <div className="text-end me-4">
-                    <h5 className="mb-3">Automatic Driving Made Easy</h5>
+                    <h5 className="mb-3">Pre-test Lessons</h5>
                     <p className="mb-0">
-                    Enjoy a stress-free learning experience with automatic cars, tailored for convenience and comfort, available with 24/7 support to help you succeed.
+                    Get ready for your driving test with focused pre-test lessons. We’ll help you master key skills and overcome common challenges
                     </p>
                   </div>
                   <div className="feature-icon">
@@ -73,9 +74,9 @@ export const FeatureSection = () => {
               <div className="col-12 wow fadeInUp" data-wow-delay="0.3s">
                 <div className="feature-item justify-content-end">
                   <div className="text-end me-4">
-                    <h5 className="mb-3">Hassle-Free Pick-Up & Drop-Off</h5>
+                    <h5 className="mb-3">Approved ADI Instructor (ID: 38157)</h5>
                     <p className="mb-0">
-                    Save time with our free pick-up and drop-off service, bringing the driving school to your doorstep.
+                    Learn from a professional ADI-approved instructor. Verify our expertise with Instructor ID: 38157 for peace of mind
                     </p>
                   </div>
                   <div className="feature-icon">
@@ -85,6 +86,67 @@ export const FeatureSection = () => {
               </div>
             </div>
           </div>
+          {/* <div className="col-xl-4">
+            <div className="row gy-4 gx-0">
+              <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="feature-item justify-content-end">
+                  <div className="text-end me-4">
+                    <h5 className="mb-3">Pre-test Lessons</h5>
+                    <p className="mb-0">
+                    Get ready for your driving test with focused pre-test lessons. We’ll help you master key skills and overcome common challenges
+                    </p>
+                  </div>
+                  <div className="feature-icon">
+                    <span className="fa fa-tag fa-2x"></span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                <div className="feature-item justify-content-end">
+                  <div className="text-end me-4">
+                    <h5 className="mb-3">Improving Your Existing Driving Skills</h5>
+                    <p className="mb-0">
+                    Enhance your current driving skills with advanced lessons. Perfect for refreshing techniques or learning new road strategies                    </p>
+                  </div>
+                  <div className="feature-icon">
+                    <span className="fa fa-map-pin fa-2x"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col-xl-4">
+            <div className="row gy-4 gx-0">
+              <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="feature-item justify-content-end">
+                  <div className="text-end me-4">
+                    <h5 className="mb-3">Approved ADI Instructor (ID: 38157)</h5>
+                    <p className="mb-0">
+                    Learn from a professional ADI-approved instructor. Verify our expertise with Instructor ID: 38157 for peace of mind
+                    </p>
+                  </div>
+                  <div className="feature-icon">
+                    <span className="fa fa-tag fa-2x"></span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                <div className="feature-item justify-content-end">
+                  <div className="text-end me-4">
+                    <h5 className="mb-3">Mock Test</h5>
+                    <p className="mb-0">
+                    Simulate the real driving test with our mock test sessions. Gain confidence and identify areas for improvement in a stress-free environment.
+                    </p>
+                  </div>
+                  <div className="feature-icon">
+                    <span className="fa fa-map-pin fa-2x"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+          
         </div>
       </div>
     </div>

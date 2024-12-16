@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -10,7 +11,7 @@ export const Footer = () => {
             <div className="col-md-6 col-lg-6 col-xl-4">
               <div className="footer-item d-flex flex-column">
                 <div className="footer-item">
-                  <h4 className="text-white mb-4">Moors Driving School</h4>
+                  <h4 className="text-white mb-4">Moor Driving School</h4>
                   <p className="mb-3">
                   Our expert driving instructors provide tailored lessons designed to build your confidence and ensure a lifetime of safe driving. 
                   </p>
@@ -43,15 +44,15 @@ export const Footer = () => {
             <div className="col-md-6 col-lg-6 col-xl-4">
               <div className="footer-item d-flex flex-column">
                 <h4 className="text-white mb-4">Quick Links</h4>
-                <a href="#">
+                <Link to="">
                   <i className="fas fa-angle-right me-2"></i> Home
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/about">
                   <i className="fas fa-angle-right me-2"></i> About
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/services">
                   <i className="fas fa-angle-right me-2"></i> Services
-                </a>
+                </Link>
                             </div>
             </div>
 

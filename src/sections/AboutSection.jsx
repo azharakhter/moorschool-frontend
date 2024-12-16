@@ -2,7 +2,8 @@ import React from "react";
 import aboutIcone from "../assets/img/about-icon-1.png"
 import aboutIcone1 from "../assets/img/about-icon-2.png"
 import attachImg from "../assets/img/attachment-img.jpg"
-import aboutImg from "../assets/img/pic-2.webp";
+import aboutImg from "../assets/img/pic56.webp";
+
 import aboutImg1 from "../assets/img/pic-3.webp";
 
 
@@ -17,10 +18,10 @@ export const AboutSection = () => {
             <div className="about-item">
               <div className="pb-5">
                 <h1 className="display-5 text-capitalize">
-                  Moors Driving <span className="text-primary">School</span>
+                  Moor Driving <span className="text-primary">School</span>
                 </h1>
                 <p className="mb-0">
-                At Moors Driving School, our experienced team is dedicated to guiding you from a learner permit to obtaining your full B licence. To qualify for your driving test, you must complete a minimum of 12 one-hour lessons. With Moors Driving School, you'll develop lifelong safe driving habits and gain the skills needed to pass your driving test on your first attempt
+                At Moor Driving School, our experienced team is dedicated to guiding you from a learner permit to obtaining your full B licence. To qualify for your driving test, you must complete a minimum of 12 one-hour lessons. With Moor Driving School, you'll develop lifelong safe driving habits and gain the skills needed to pass your driving test on your first attempt
                 </p>
               </div>
               <div className="row g-4">
@@ -55,7 +56,7 @@ export const AboutSection = () => {
                   </div>
                 </div>
               </div>
-              <h5 className="mb-3">Why Choose Moors Driving School?</h5>
+              <h5 className="mb-3">Why Choose Moor Driving School?</h5>
               <p className="mb-2">
                       <i className="fa fa-check-circle text-primary me-1"></i> 15 years of professional driving instruction experience.
                     </p>
