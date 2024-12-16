@@ -118,7 +118,7 @@ export const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2"
               >
-                WhatsApp(+353857563001)
+                WhatsApp(+353 857 563 001)
               </a>
 
               <a href="mailto:Moordrivingschoolwaterford@gmail.com" className="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">
