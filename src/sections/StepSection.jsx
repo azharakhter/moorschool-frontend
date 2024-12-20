@@ -4,6 +4,7 @@ export const StepSection = () => {
   return (
     <div className="container-fluid steps py-5">
       <div className="container py-5">
+
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "800px" }}>
           <h1 className="display-5 text-capitalize text-white mb-3">
           Get Started <span className="text-primary"> With Ease</span>

@@ -8,10 +8,10 @@ import { ServicesSection } from '../sections/ServicesSection';
 import { CounterSection } from '../sections/CounterSection';
 import { StepSection } from '../sections/StepSection';
 // import { BlogSection } from '../sections/BlogSection';
-// import { BannerSection } from '../sections/BannerSection';
+import { ClientReviewGoogle } from '../sections/ClientReviewGoogle';
 // import { TeamSection } from '../sections/TeamSection';
 import { Testimonial } from '../sections/Testimonial';
-
+import { CustomerSucessSection } from '../sections/CustomerSucessSection';
 
 
 
@@ -20,22 +20,16 @@ import React from "react";
 export const HomePage = () => {
   return (
     <div>
-       <Header />
-          <HeroSection />
-          <FeatureSection /> 
-          <AboutSection />
-          <CounterSection />
-          <ServicesSection />
-      {/* <TestCategoires /> */}
-  
+      <Header />
+      <HeroSection />
+      <FeatureSection />
+      <AboutSection />
+      <ClientReviewGoogle />
+      <CustomerSucessSection />
+      <CounterSection />
+      <ServicesSection />
       <StepSection />
-      <Testimonial/>
-          {/* <BlogSection /> */}
-          {/* <BannerSection /> */}
-          {/* <TeamSection /> */}
-     
-
-          <Footer/>
+      <Footer />
     </div>
   );
 };

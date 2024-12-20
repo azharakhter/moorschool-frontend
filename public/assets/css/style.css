@@ -415,6 +415,14 @@
 /*** Fact Counter End ***/
 
 /*** Services Start ***/
+.service .service-item img{
+    width: 100%; /* Set full width */
+    height: 300px; /* Set a fixed height */
+    object-fit: contain; /* Ensure the image fills the space and crops excess */
+    object-position: center; /* Center the focal point of the image */
+    border-radius: 10px; /* Optional: Add rounded corners for a beautiful look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for a polished appearance */
+}
 .service .service-item {
     position: relative;
     display: flex;

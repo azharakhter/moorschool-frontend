@@ -60,19 +60,19 @@ export const Footer = () => {
               <div className="footer-item d-flex flex-column">
                 <h4 className="text-white mb-4">Contact Info</h4>
                 <a href="#">
-                  <i className="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA
+                  <i className="fa fa-map-marker-alt me-2"></i> 2 Bounds Ct, Airport Road, Waterford, X91 CX5W
                 </a>
                 <a href="mailto:Moordrivingschoolwaterford@gamil.com">
                   <i className="fas fa-envelope me-2"></i>Moordrivingschoolwaterford
                 </a>
                      
                 <a
-      href="https://wa.me/353857563001"
+      href="https://maps.app.goo.gl/WUuRLx1JnXABdhg17"
       target="_blank"
       rel="noopener noreferrer"
       className="btn btn-primary rounded-pill py-2 px-4 text-white"
     >
-      WhatsApp Call
+      Location
     </a>
 {/*                
                 <div className="d-flex">
