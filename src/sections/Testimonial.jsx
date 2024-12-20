@@ -363,7 +363,7 @@ export const Testimonial = () => {
     loop: true,
     margin: 30,
     nav: false,
-    dots: true,
+    dots: false,
     autoplay: true,
     autoplayTimeout: 5000,
     smartSpeed: 800,
