@@ -47,19 +47,21 @@ export const ServicesSection = () => {
               delay: "0.1s",
             },
             {
-              icon: "fa-building",
-              title: "City-to-City Training",
-              description:
-                "Master driving on both urban and intercity roads with lessons covering a variety of real-world scenarios.",
-              delay: "0.3s",
-            },
-            {
               icon: "fa-car-alt",
               title: "Mock Test",
               description:
                 "Simulate the real driving test with our mock test sessions. Gain confidence and identify areas for improvement in a stress-free environment",
               delay: "0.5s",
             },
+            {
+  icon: "fa-clock",
+  title: "Cancellation Policy",
+  description:
+    "Provide at least 48 hours' notice to cancel or reschedule a lesson. Failing to do so will result in a charge of 100% of the lesson fee.",
+  delay: "0.5s",
+}
+
+            
 
           ].map((service, index) => (
             <div

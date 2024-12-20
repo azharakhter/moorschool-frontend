@@ -9,11 +9,11 @@ export const Header = () => {
       <div className="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
-            <a href="#" className="navbar-brand p-0">
+            <Link to="" className="navbar-brand p-0">
               <h1 className="display-6 text-primary">
-                <i className="fas fa-car-alt me-3"></i>Moor Driving School
+                <i className="fas fa-car-alt me-2"></i>Moor Driving School
               </h1>
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -48,6 +48,15 @@ export const Header = () => {
                 >
                   Service
                 </Link>
+                <Link
+                  to="/stories"
+                  className={`nav-item nav-link ${
+                    location.pathname === "/services" ? "text-danger" : ""
+                  }`}
+                >
+                  Successful Stories
+                </Link>
+                
               </div>
               <a
                 href="https://wa.me/353857563001"
