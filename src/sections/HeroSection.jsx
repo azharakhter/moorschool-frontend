@@ -53,19 +53,7 @@ export const HeroSection = () => {
     <div className="header-carousel">
       <div id="carouselId" className="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
         {/* Custom Indicators */}
-        <ol className="carousel-indicators">
-          {[...Array(totalSlides)].map((_, index) => (
-            <li
-              key={index}
-              data-bs-target="#carouselId"
-              data-bs-slide-to={index}
-              className={index === activeSlide ? "active" : ""}
-              onClick={() => handleSlideChange(index)}
-              aria-label={`Slide ${index + 1}`}
-            ></li>
-          ))}
-        </ol>
-
+     
         {/* Carousel Slides */}
         <div className="carousel-inner" role="listbox">
           {/* First Slide */}
