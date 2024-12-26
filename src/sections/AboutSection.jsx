@@ -70,48 +70,14 @@ export const AboutSection = () => {
                       <i className="fa fa-check-circle text-primary me-1"></i> Tailored lessons to suit all skill levels and learning paces
                     </p>  
            
-              <div className="row g-4">
+              <div className="row g-4 mt-2">
                 <div className="col-lg-12">
                   <div className="text-center rounded bg-secondary p-4">
                     <h1 className="display-6 text-white">15</h1>
                     <h5 className="text-light mb-0">Years Of Experience</h5>
                   </div>
                 </div>
-                {/* <div className="col-lg-6">
-                  <div className="rounded">
-                    <p className="mb-2">
-                      <i className="fa fa-check-circle text-primary me-1"></i> Morbi tristique senectus
-                    </p>
-                    <p className="mb-2">
-                      <i className="fa fa-check-circle text-primary me-1"></i> A scelerisque purus
-                    </p>
-                    <p className="mb-2">
-                      <i className="fa fa-check-circle text-primary me-1"></i> Dictumst vestibulum
-                    </p>
-                    <p className="mb-0">
-                      <i className="fa fa-check-circle text-primary me-1"></i> dio aenean sed adipiscing
-                    </p>
-                  </div>
-                </div> */}
-                <div className="col-lg-5 d-flex align-items-center">
-                  <a href="#" className="btn btn-primary rounded py-3 px-5">
-                    Contact us
-                  </a>
-                </div>
-                {/* <div className="col-lg-7">
-                  <div className="d-flex align-items-center">
-                    <img
-                      src={attachImg}
-                      className="img-fluid rounded-circle border border-4 border-secondary"
-                      style={{ width: "100px", height: "100px" }}
-                      alt="Image"
-                    />
-                    <div className="ms-4">
-                      <h4>Founder</h4>
-                      <p className="mb-0">Naveed</p>
-                    </div>
-                  </div>
-                </div> */}
+            
               </div>
             </div>
           </div>

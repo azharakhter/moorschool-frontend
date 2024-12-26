@@ -31,14 +31,14 @@ export const HeroSection = () => {
   rel="noopener noreferrer"
   className="btn btn-secondary rounded-pill button-custome d-block d-sm-inline-block"
 >
-  WhatsApp(+353 857 563 001)
+  Click to Call(+353 857 563 001)
 </a>
 
 <a
   href="mailto:Moordrivingschoolwaterford@gmail.com"
   className="btn btn-primary rounded-pill button-custome d-block d-sm-inline-block mt-3 mt-sm-0"
 >
-  Moordrivingschoolwaterford@gmail.com
+  Click To Email (Moordrivingschoolwaterford@gmail.com)
 </a>
 
 
