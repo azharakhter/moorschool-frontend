@@ -965,3 +965,44 @@
 .carousel-item {
     transition: transform 1.5s cubic-bezier(0.4, 0.0, 0.2, 1), opacity 1.5s cubic-bezier(0.4, 0.0, 0.2, 1);
   }
+
+
+  .button-custome {
+    /* Default padding */
+    padding: 12px 20px;
+    width: 100%; /* Make the button full-width on small screens */
+    text-align: center; /* Center the text inside the button */
+    white-space: normal; /* Allow text to wrap inside the button */
+    word-wrap: break-word; /* Ensure the text wraps correctly */
+  }
+  
+  @media (min-width: 576px) {
+    .button-custome {
+      /* On larger screens, adjust padding and prevent full-width */
+      width: auto;
+      display: inline-block; /* Keep the buttons inline on larger screens */
+      padding: 16px 20px; /* Adjust padding as needed */
+    }
+  }
+  
+
+  /* Styles for both buttons */
+.call-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999; /* Ensure it stays on top of other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Adjust buttons to be stacked vertically */
+  .call-button + .call-button {
+    bottom: 90px; /* Position the second button slightly higher */
+  }
+  
+  /* Optional: Add hover effect */
+  .call-button:hover {
+    transform: scale(1.1);
+  }
+  

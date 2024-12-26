@@ -16,6 +16,7 @@ import { CustomerSucessSection } from '../sections/CustomerSucessSection';
 
 
 import React from "react";
+import { CallButton } from '../components/commons/buttons/primary-button';
 
 export const HomePage = () => {
   return (
@@ -30,6 +31,7 @@ export const HomePage = () => {
       <ServicesSection />
       <StepSection />
       <Footer />
+     <CallButton/> 
     </div>
   );
 };

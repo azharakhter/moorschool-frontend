@@ -64,7 +64,8 @@ export const Header = () => {
                 rel="noopener noreferrer"
                 className="btn btn-primary rounded-pill py-2 px-4"
               >
-                WhatsApp Call
+                CALL US
+                
               </a>
             </div>
           </nav>
