@@ -13,7 +13,7 @@ export const Footer = () => {
                 <div className="footer-item">
                   <h4 className="text-white mb-4">Moor Driving School</h4>
                   <p className="mb-3">
-                  Our expert driving instructors provide tailored lessons designed to build your confidence and ensure a lifetime of safe driving. 
+                    Our expert driving instructors provide tailored lessons designed to build your confidence and ensure a lifetime of safe driving.
                   </p>
                 </div>
                 <div className="position-relative">
@@ -28,16 +28,16 @@ export const Footer = () => {
                   >
                     Subscribe
                   </button> */}
-                 
-                  
+
+
                   <a
-      href="https://wa.me/353857563001"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn btn-primary rounded-pill py-2 px-4 text-white"
-    >
-      WhatsApp Call
-    </a>
+                    href="https://wa.me/353857563001"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary rounded-pill py-2 px-4 text-white"
+                  >
+                    WhatsApp Call
+                  </a>
                 </div>
               </div>
             </div>
@@ -53,28 +53,25 @@ export const Footer = () => {
                 <Link to="/services">
                   <i className="fas fa-angle-right me-2"></i> Services
                 </Link>
-                            </div>
+              </div>
             </div>
 
             <div className="col-md-6 col-lg-6 col-xl-4">
               <div className="footer-item d-flex flex-column">
                 <h4 className="text-white mb-4">Contact Info</h4>
-                <a href="#">
-                  <i className="fa fa-map-marker-alt me-2"></i> 2 Bounds Ct, Airport Road, Waterford, X91 CX5W
-                </a>
+
                 <a href="mailto:Moordrivingschoolwaterford@gamil.com">
                   <i className="fas fa-envelope me-2"></i>Moordrivingschoolwaterford
                 </a>
-                     
                 <a
-      href="https://maps.app.goo.gl/WUuRLx1JnXABdhg17"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn btn-primary rounded-pill py-2 px-4 text-white"
-    >
-      Location
-    </a>
-{/*                
+                  href="https://wa.me/353857563001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary rounded-pill py-2 px-4 mt-5 text-white"
+                >
+                  Click to Call(+353 857 563 001)
+                </a>
+                {/*                
                 <div className="d-flex">
                   <a className="btn btn-secondary btn-md-square rounded-circle me-3" href="#">
                     <i className="fab fa-facebook-f text-white"></i>
