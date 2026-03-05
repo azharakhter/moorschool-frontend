@@ -1,8 +1,7 @@
-import { useState } from "react";
+/* eslint-disable no-unused-vars */
 import carouselImg from "../assets/img/pic-4.webp";
 
 export const HeroSection = () => {
-  const [activeSlide, setActiveSlide] = useState(0); // Track the active slide
 
   const SlideContent = ({ title, description }) => (
     <div className="container py-4">
@@ -52,7 +51,7 @@ export const HeroSection = () => {
         {/* Carousel Slides */}
         <div className="carousel-inner" role="listbox">
           {/* First Slide */}
-          <div className={`carousel-item ${activeSlide === 0 ? "active" : ""}`}>
+          <div className={`carousel-item active`}>
             <img src={carouselImg} className="img-fluid w-100" alt="First slide" />
             <div className="carousel-caption">
               <SlideContent
