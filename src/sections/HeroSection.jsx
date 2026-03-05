@@ -3,7 +3,7 @@ import carouselImg from "../assets/img/pic-4.webp";
 
 export const HeroSection = () => {
 
-  const SlideContent = ({ title, description }) => (
+  const SlideContent = () => (
     <div className="container py-4">
       <div className="row g-5">
         <div className="col-lg-12 d-lg-flex text-center fadeInRight animated" style={{ animationDelay: "1s" }}>
