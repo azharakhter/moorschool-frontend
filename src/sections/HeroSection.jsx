@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="col-lg-12 d-lg-flex text-center fadeInRight animated" style={{ animationDelay: "1s" }}>
           <div className="banner-content">
             <h5 className="display-5 text-capitalize">
-              <span className="text-white"> Ready to Hit the Road</span>
+              <span className="text-white"> Ready to Hit the Road </span>
             </h5>
 
             <h1 className="display-2 text-capitalize">
