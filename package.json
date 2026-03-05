@@ -2,9 +2,9 @@
   "name": "student-portal-frontend-app",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-  "node": "18.x",
-  "npm": "9.x"
+"engines": {
+  "node": "24.x",
+  "npm": "10.x"
 },
   "dependencies": {
     "@emotion/react": "^11.11.3",
