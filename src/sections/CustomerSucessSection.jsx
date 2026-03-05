@@ -65,7 +65,7 @@ export const CustomerSucessSection = () => {
               key={index}
             >
               <div className="service-item p-4">
-              <img src={service.image} alt="customer-picture" ></img>
+              <img src={service.image} alt={`Customer testimonial ${index + 1}`} />
               
               </div>
             </div>

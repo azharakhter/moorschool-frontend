@@ -1,7 +1,6 @@
 import React from "react";
 import aboutIcone from "../assets/img/about-icon-1.png"
 import aboutIcone1 from "../assets/img/about-icon-2.png"
-import attachImg from "../assets/img/attachment-img.jpg"
 import aboutImg from "../assets/img/pic56.webp";
 
 import aboutImg1 from "../assets/img/pic-3.webp";

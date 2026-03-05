@@ -3,11 +3,6 @@ import carouselImg from "../assets/img/pic-4.webp";
 
 export const HeroSection = () => {
   const [activeSlide, setActiveSlide] = useState(0); // Track the active slide
-  const totalSlides = 2; // Total number of slides
-
-  const handleSlideChange = (index) => {
-    setActiveSlide(index);
-  };
 
   const SlideContent = ({ title, description }) => (
     <div className="container py-4">

@@ -10,12 +10,8 @@ import { StepSection } from '../sections/StepSection';
 // import { BlogSection } from '../sections/BlogSection';
 import { ClientReviewGoogle } from '../sections/ClientReviewGoogle';
 // import { TeamSection } from '../sections/TeamSection';
-import { Testimonial } from '../sections/Testimonial';
 import { CustomerSucessSection } from '../sections/CustomerSucessSection';
 
-
-
-import React from "react";
 import { CallButton } from '../components/commons/buttons/primary-button';
 
 export const HomePage = () => {
@@ -31,7 +27,7 @@ export const HomePage = () => {
       <ServicesSection />
       <StepSection />
       <Footer />
-     <CallButton/> 
+      <CallButton />
     </div>
   );
 };
