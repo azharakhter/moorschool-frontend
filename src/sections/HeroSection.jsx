@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import carouselImg from "../assets/img/pic-4.webp";
 
 export const HeroSection = () => {
