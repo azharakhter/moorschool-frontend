@@ -69,7 +69,7 @@ export const Footer = () => {
                   rel="noopener noreferrer"
                   className="btn btn-primary rounded-pill py-2 px-4 mt-5 text-white"
                 >
-                  Click to Call(+353 857 563 001)
+                  Click to Call( +353 857 563 001 )
                 </a>
                 {/*                
                 <div className="d-flex">
